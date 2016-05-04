@@ -57,8 +57,6 @@ Feel free to use either on your page
 
 ## Diving Deeper into the API
 - Get your API key from Google [Here](https://developers.google.com/maps/documentation/javascript/get-api-key)
-- Place your key in jsMap.html
-- Adjust map setting to you liking
 
 ## Adding Markers
 
@@ -102,7 +100,7 @@ function initMap() {
 
 function addMarker(location, title){
   marker = new google.maps.Marker({
-    position: myLatLng,
+    position: location,
     map: map,
     title: title
   });
@@ -141,5 +139,5 @@ function removeMarker(){
 
 ## Exercise
 - Declare a function called userInputMarker that adds a new marker to the map based on the Lat/Long entered by the user.
-- Add a button that calls a function to change the map center to the Lat/Long entered by the user.
-- Create a function/button that changes the map type.
+- When the user adds a marker, change the map center to the Lat/Long entered.
+- Create a button and function that changes the map type.
