@@ -10,7 +10,7 @@
 <script src="https://maps.googleapis.com/maps/api/js"></script>
 ```
 
-### Create and configure the map
+### Create and configure the map  (Question: in what file?)
 The Map constructor takes in two arguments:
 <br>
 <br>
